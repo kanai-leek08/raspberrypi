@@ -41,7 +41,7 @@ class Voice:
 
 class Camera:
   def take(self):
-    cmd = "raspistill -t 100 -o " + "/home/pi/capture.jpg"
+    cmd = "raspistill -t 100 -o " + "capture.jpg"
     subprocess.call(cmd, shell=True)
 
 
